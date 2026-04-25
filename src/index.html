@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="cupcake">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Msy shopping</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+</head>
+
+<body class="bg-stone-100">
+
+  <!-- Navbar -->
+  <div class="navbar bg-base-100 shadow-sm">
+
+    <div class="navbar-start">
+      <a class="btn btn-ghost text-xl">MSY shopping</a>
+    </div>
+    <div class="navbar-center">
+    </div>
+    <div class="navbar-end">
+      <button class="btn btn-ghost btn-circle">
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+            d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+        </svg>
+      </button>
+      <button class="btn btn-ghost btn-circle">
+
+        <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#000000">
+          <path
+            d="M240-80q-33 0-56.5-23.5T160-160v-480q0-33 23.5-56.5T240-720h80q0-66 47-113t113-47q66 0 113 47t47 113h80q33 0 56.5 23.5T800-640v480q0 33-23.5 56.5T720-80H240Zm0-80h480v-480h-80v80q0 17-11.5 28.5T600-520q-17 0-28.5-11.5T560-560v-80H400v80q0 17-11.5 28.5T360-520q-17 0-28.5-11.5T320-560v-80h-80v480Zm160-560h160q0-33-23.5-56.5T480-800q-33 0-56.5 23.5T400-720ZM240-160v-480 480Z" />
+        </svg>
+
+
+      </button>
+    </div>
+    <div class="dropdown">
+      <div tabindex="0" role="button" class="btn btn-ghost btn-circle">
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h7" />
+        </svg>
+      </div>
+      <ul tabindex="-1" class="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
+        <li><a>Homepage</a></li>
+        <li><a>Portfolio</a></li>
+        <li><a>About</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <main>
+
+    <!-- Hero section -->
+  <div class="relative flex h-screen w-full flex-col justify-between bg-[url('./image/hero.jpg')] bg-cover bg-center px-6 py-12 text-center text-white">
+  
+  <div class="absolute inset-0 bg-black/40"></div>
+
+  <div class="z-10 mt-3">
+    <h1 class="text-4xl font-bold  md:text-5xl">
+      Incarne l'élégance.<br>
+      Domine la tendance.
+    </h1>
+  </div>
+
+  <div class="z-10 flex flex-col items-center space-y-6">
+    
+    <p class="text-xl font-light italic md:text-3xl">
+      La collection exclusive des femmes qui osent briller à Kinshasa
+    </p>
+
+    <button class="bg-slate-900 px-10 py-4 text-sm font-bold uppercase tracking-widest text-white hover:bg-slate-700 transition rounded-full">
+      JE DÉCOUVRE LA COLLECTION
+    </button>
+
+  </div>
+</div>
+  </main>
+
+</body>
+
+</html>
